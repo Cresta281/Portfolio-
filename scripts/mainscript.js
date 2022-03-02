@@ -102,12 +102,12 @@ $('#field4').change(function(){
 if (window.matchMedia('(max-width: 767px)').matches){
 $('#hide_button').click(function(){
     $('#hide').show().css('width','100%')
-    $('#hide0').show().css('width','100%')
+    $('#hide0').show().css('width','200%')
     $('#hide1').show().css('width','200%')
     $('#hide2').show().css('width','200%')
     $('#hide_button').fadeOut(400)
     $('#close_about').show()
-    $('.about').css('height','1200px')
+    $('.about').css('height','1400px')
 })
 $('#close_about').click(function() {
     $('#hide').hide()
