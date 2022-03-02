@@ -21,7 +21,7 @@ if (window.matchMedia('(max-width: 767px)').matches){
     $('.scroll_up').css('width','8%')
 }if (window.matchMedia('(min-width: 768px)').matches){
     $('.scroll_up').css('width','3%')
-    $('.scroll_up').css('height','4%')
+    $('.scroll_up').css('height','6%')
     $('.scroll_up').css('padding','0.1rem')
 }else {
 }
