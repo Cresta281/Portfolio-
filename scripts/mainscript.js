@@ -102,6 +102,7 @@ $('#field4').change(function(){
 if (window.matchMedia('(max-width: 767px)').matches){
 $('#hide_button').click(function(){
     $('#hide').show().css('width','100%')
+    $('#hide0').show().css('width','100%')
     $('#hide1').show().css('width','200%')
     $('#hide2').show().css('width','200%')
     $('#hide_button').fadeOut(400)
@@ -110,6 +111,7 @@ $('#hide_button').click(function(){
 })
 $('#close_about').click(function() {
     $('#hide').hide()
+    $('#hide0').hide()
     $('#hide1').hide()
     $('#hide2').hide()
     $('#hide_button').fadeIn(400)
@@ -121,6 +123,7 @@ $('#close_about').click(function() {
 if (window.matchMedia('(min-width: 768px)').matches){
     $('#hide_button').click(function(){
         $('#hide').show().css('width','130%')
+        $('#hide0').show().css('width','130%')
         $('#hide1').show().css('width','130%')
         $('#hide2').show().css('width','200%')
         $('#hide_button').fadeOut(400)
@@ -129,6 +132,7 @@ if (window.matchMedia('(min-width: 768px)').matches){
     })
     $('#close_about').click(function() {
         $('#hide').hide()
+        $('#hide0').hide()
         $('#hide1').hide()
         $('#hide2').hide()
         $('#hide_button').fadeIn(400)
