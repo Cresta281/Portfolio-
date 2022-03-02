@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar {
+  background: #F2F7F2;
+  position: fixed;
+  font-family: 'Ubuntu', sans-serif;
+  height: 4.3rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 100%;
+}
+
+.navbar .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .container-fluid .navbar-brand {
+  font-size: 2rem;
+  font-weight: 550;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 0 0 6rem;
+  letter-spacing: 0.125rem;
+  color: #411032;
+}
+
+.navbar .container-fluid .navbar-brand span {
+  color: #78DE68;
+  font-weight: 550;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .container-fluid button {
+  color: #411032;
+}
+
+.navbar .container-fluid ul li a {
+  color: #411032;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .container-fluid ul li a:hover {
+  color: #78DE68;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 8;
+}
+
+.header .navbar {
+  position: fixed;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.header .navbar .container-fluid {
+  background: #411032;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navbar .container-fluid .navbar-brand {
+  font-size: 2rem;
+  font-weight: 550;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 0 0 6rem;
+  letter-spacing: 0.125rem;
+  color: #F2F7F2;
+}
+
+.header .navbar .container-fluid .navbar-brand:hover {
+  color: #78DE68;
+}
+
+.header .navbar .container-fluid .navbar-brand span {
+  color: #F2F7F2;
+  font-weight: 550;
+}
+
+.header .navbar .container-fluid button {
+  background: #78DE68;
+  color: #F2F7F2;
+}
+
+.header .navbar .container-fluid ul li a {
+  color: #F2F7F2;
+}
+
+.header .navbar .container-fluid ul li a:hover {
+  color: #78DE68;
+}
+
+/* Home */
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #F2F7F2;
+}
+
+.home .home_img {
+  margin: 3rem 2rem 3rem 3rem;
+}
+
+.home .home_img img {
+  max-width: 45rem;
+  max-height: 45rem;
+  border-radius: 20%;
+  border: 2px solid #411032;
+  -webkit-box-shadow: 5px 5px 6px 1px #411032;
+          box-shadow: 5px 5px 6px 1px #411032;
+}
+
+.home .home_width .home_width_content {
+  color: #411032;
+  margin: 10rem 0 0 5rem;
+}
+
+.home .home_width .home_width_content .home_width_content_text1 {
+  font-size: 1.7rem;
+}
+
+.home .home_width .home_width_content .home_width_content_text2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.home .home_width .home_width_content .home_width_content_text3 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.home .home_width .home_width_content .home_width_content_text3 span {
+  color: #78DE68;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*about section */
+.about {
+  height: 1000px;
+  background: #F2F7F2;
+}
+
+.about .about_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  background: #F2F7F2;
+  padding-top: 4rem;
+}
+
+.about .about_header .about_header_text {
+  width: 40%;
+  margin: 0 0 0 2rem;
+}
+
+.about .about_header .about_header_text .fa-solid {
+  position: relative;
+  color: #411032;
+  font-size: 15rem;
+  top: 0%;
+  right: 10%;
+  opacity: 55%;
+}
+
+.about .about_header .about_header_text h1 {
+  font-size: 2.6rem;
+  color: #411032;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  z-index: 2;
+  margin-top: -8rem;
+}
+
+.about .about_header .about_header_text p {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 0.5rem;
+  margin: -0.5rem 0 0 -2rem;
+}
+
+.about .about_header .about_header_text p:nth-of-type(1) {
+  margin-top: 4rem;
+}
+
+.about .about_header .about_header_pics {
+  width: 30%;
+  margin: 11rem 1rem 1rem 2rem;
+}
+
+.about .about_header .about_header_pics img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40%;
+  border: 2px solid #411032;
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+}
+
+/*projects section */
+.projects {
+  background: #F2F7F2;
+}
+
+.projects .projects_container .projects_container_title {
+  font-size: 3rem;
+  color: #411032;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.projects .projects_container .projects_container_title:before {
+  content: "";
+  position: absolute;
+  width: 19rem;
+  height: 0.2rem;
+  background: #411032;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.projects .projects_container .projects_container_title:after {
+  content: "What I can give to you";
+  position: absolute;
+  width: 10%;
+  height: 2.5rem;
+  color: #78DE68;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0.5rem;
+  bottom: -1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #F2F7F2;
+}
+
+.projects .projects_container .projects_container_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #411032;
+  height: 400px;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card {
+  width: calc(40% - 3rem);
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box {
+  margin-top: 5rem;
+  border: solid 5px #411032;
+  border-radius: 10%;
+  padding: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background: #F2F7F2;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 10px 3px #F2F7F2;
+          box-shadow: 0px 0px 10px 3px #F2F7F2;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box:nth-of-type(1) {
+  margin-left: 4rem;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box a {
+  text-decoration: none;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box a .fa-solid {
+  font-size: 1rem;
+  color: #411032;
+  margin: 1rem 0 1.5rem 8.6rem;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box a .projects_container_content_card_box_text {
+  font-size: 2rem;
+  color: #411032;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.projects .projects_container .projects_container_content .projects_container_content_card .projects_container_content_card_box a h3 {
+  font-size: 1rem;
+  color: #411032;
+  text-align: center;
+}
+
+/*skills section */
+.skills {
+  background: #F2F7F2;
+  padding-top: 2rem;
+}
+
+.skills .skills_container h2 {
+  font-size: 3rem;
+  color: #411032;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  padding: 3rem 0 1rem 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.skills .skills_container h2:before {
+  content: "";
+  position: absolute;
+  width: 19rem;
+  height: 0.2rem;
+  background: #411032;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.skills .skills_container h2:after {
+  content: "What I know.";
+  position: absolute;
+  width: 8%;
+  height: 2.5rem;
+  color: #78DE68;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0.5rem;
+  bottom: -1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #F2F7F2;
+}
+
+.skills .skills_container .skills_container_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column1 {
+  width: calc(50% - 2rem);
+  margin: 0 0 0 4rem;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column1 h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column1 p {
+  font-size: 1rem;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column1 .button_certificates {
+  display: inline-block;
+  background: #411032;
+  color: #F2F7F2;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5%;
+  border: 2px solid #411032;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column1 .button_certificates:hover {
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+  background: #F2F7F2;
+  color: #411032;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 {
+  width: calc(50% - 2rem);
+  margin: 0 1rem 0 4rem;
+  padding: 1.25rem;
+  border-radius: 5%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars {
+  margin-bottom: 1rem;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 3rem 0.25rem 0;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .info span {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .line {
+  height: 0.45rem;
+  width: 85%;
+  position: relative;
+  background: #411032;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .line:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #78DE68;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .html:before {
+  width: 85%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .css:before {
+  width: 70%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .scss:before {
+  width: 70%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .js:before {
+  width: 65%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .jquery:before {
+  width: 65%;
+}
+
+.skills .skills_container .skills_container_content .skills_container_content_column2 .bars .git:before {
+  width: 55%;
+}
+
+.skills .skills_certificates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F2F7F2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5rem 3rem 2rem 3rem;
+  display: none;
+  position: absolute;
+}
+
+.skills .skills_certificates img {
+  width: 40%;
+  height: auto;
+}
+
+.skills .skills_certificates .fa-solid {
+  font-size: 1rem;
+  background: #411032;
+  color: #F2F7F2;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+  cursor: pointer;
+  display: block;
+  width: 3%;
+  position: relative;
+  left: 90%;
+  top: 90%;
+  margin-bottom: 1rem;
+  border-radius: 15%;
+  border: 2px solid #411032;
+}
+
+.skills .skills_certificates .fa-solid:hover {
+  color: #411032;
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+  background: #F2F7F2;
+}
+
+/* contact section */
+.contact {
+  background: #F2F7F2;
+  padding-top: 2rem;
+}
+
+.contact .contact_container {
+  background: #F2F7F2;
+}
+
+.contact .contact_container h2 {
+  font-size: 3rem;
+  color: #411032;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  padding: 3rem 0 1rem 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.contact .contact_container h2:before {
+  content: "";
+  position: absolute;
+  width: 19rem;
+  height: 0.2rem;
+  background: #411032;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.contact .contact_container h2:after {
+  content: "How to reach me";
+  position: absolute;
+  width: 10%;
+  height: 2.5rem;
+  color: #78DE68;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0.5rem;
+  bottom: -1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #F2F7F2;
+}
+
+.contact .contact_container .contact_container_content {
+  background: #F2F7F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: -3rem;
+}
+
+.contact .contact_container .contact_container_content .content_column1 {
+  width: calc(40% - 3rem);
+  padding: 2rem 4rem;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .content_column1_text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 5rem 0 1rem 0;
+}
+
+.contact .contact_container .contact_container_content .content_column1 p {
+  text-align: justify;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons {
+  margin: 1rem 0;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons .icons_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons .icons_row .fa-solid {
+  font-size: 1.3rem;
+  color: #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons .icons_row .icons_row_info {
+  margin-left: 2rem;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons .icons_row .icons_row_info .head {
+  font-weight: 600;
+}
+
+.contact .contact_container .contact_container_content .content_column1 .icons .icons_row .icons_row_info .sub {
+  color: #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column2 {
+  width: calc(40% - 3rem);
+  padding: 2rem 4rem;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .content_column2_text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: -2rem 5rem 1rem 0;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field input {
+  height: 100%;
+  width: 100%;
+  border: solid 1px #78DE68;
+  border-radius: 5%;
+  outline: none;
+  padding: 0 0.5rem;
+  background: #F2F7F2;
+  color: #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field input:hover {
+  background: #78DE68;
+  color: #F2F7F2;
+  font-weight: 600;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field textarea {
+  height: 100px;
+  width: 100%;
+  border: solid 1px #78DE68;
+  border-radius: 5%;
+  outline: none;
+  padding: 0 0.5rem;
+  background: #F2F7F2;
+  color: #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field textarea:hover {
+  background: #78DE68;
+  color: #F2F7F2;
+  font-weight: 600;
+  border: solid 1px #78DE68;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field .input {
+  background: #411032;
+  color: #F2F7F2;
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+  border: solid 1px #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field .input:hover {
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+  background: #F2F7F2;
+  color: #411032;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field button {
+  margin-top: 3rem;
+  display: inline-block;
+  background: #411032;
+  color: #F2F7F2;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  border-radius: 5%;
+  border: 2px solid #411032;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.contact .contact_container .contact_container_content .content_column2 .fields .field button:hover {
+  -webkit-box-shadow: -2px 6px 10px 1px #411032;
+          box-shadow: -2px 6px 10px 1px #411032;
+  background: #F2F7F2;
+  color: #411032;
+}
+
+/* footer */
+footer {
+  background: #411032;
+  color: #F2F7F2;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2rem 3.2rem;
+  text-align: center;
+}
+
+footer span a {
+  text-decoration: none;
+  color: #78DE68;
+}
+
+footer span a:hover {
+  color: #F2F7F2;
+}
+
+.scroll_up {
+  position: fixed;
+  height: 6%;
+  width: 3%;
+  background: #411032;
+  right: 2%;
+  bottom: 5%;
+  text-align: center;
+  line-height: 45px;
+  z-index: 1010;
+  font-size: 1.5rem;
+  border-radius: 6%;
+  color: #F2F7F2;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*# sourceMappingURL=estilos.css.map */

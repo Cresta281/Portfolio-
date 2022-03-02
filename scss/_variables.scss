@@ -1,0 +1,7 @@
+$violeta : #411032;
+$blanco : #F2F7F2;
+$verde : #78DE68;
+@mixin links {
+    text-decoration: none;
+    color: $violeta;
+}
