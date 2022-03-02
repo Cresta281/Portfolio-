@@ -1,12 +1,12 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
     .home {
         flex-direction: column;
         justify-content: space-evenly;
         .home_img {
             margin: 3rem 2rem 3rem 3rem;
             img {
-                max-width: 100%;
-                max-height: 100%;
+                max-width: 90%;
+                max-height: 90%;
                 border-radius: 20%;
                 border: 2px solid $violeta;
                 box-shadow: 5px 5px 6px 1px $violeta;
@@ -53,25 +53,25 @@
                 .fa-solid {
                     position: relative;
                     color: $violeta;
-                    font-size: 10rem;
-                    top: 0%;
-                    left: 40%;
+                    font-size: 15rem;
+                    bottom: 15%;
+                    left: 5%;
                     opacity: 55%;
                 }
                 h1 {
-                    font-size: 2.1rem;
+                    font-size: 2.6rem;
                     color: $violeta;
                     font-weight: 600;
                     text-transform: uppercase;
                     letter-spacing: 0.2rem;
                     z-index: 2;
-                    margin: -7rem 0 0 7rem;
+                    margin: -8.3rem 0 0 4rem;
                 }
                 p {
                     margin: -0.5rem 0 0 0;
                     display: none;
                     &:nth-of-type(1) {
-                        margin-top: 4rem;
+                        margin-top: 6.5rem;
                         display: block;
                     }
                 }
@@ -100,7 +100,7 @@
                 }
             }
             .about_header_pics {
-                width: 40%;
+                width: 30%;
                 margin: 13rem 1rem 1rem 2rem;
                 img {
                     max-width: 100%;
@@ -126,8 +126,8 @@
             text-decoration: none;
             cursor: pointer;
             position: absolute;
-            top: 85%;
-            right: 40%;
+            bottom: 10%;
+            right: 75%;
             
             &:hover {
                 box-shadow: -2px 6px 10px 1px $violeta;
@@ -161,7 +161,7 @@
                 &:after {
                     content: "What I can give to you";
                     position: absolute;
-                    width: 40%;
+                    width: 20%;
                     height: 2.5rem;
                     color: $verde;
                     font-size: 1rem;
@@ -177,12 +177,14 @@
             }
             .projects_container_content {
                 display: flex;
-                flex-direction: column;
-                justify-content: space-around;
+                flex-direction: row;
+                justify-content: space-evenly;
                 background: $violeta;
-                height: 500px;
+                height: 300px;
+                padding: 2rem auto;
                 .projects_container_content_card {
-                    width: 90%;
+                    width: 100%;
+                    padding-top: 3rem;
                     
                     .projects_container_content_card_box {
                         margin-right: 2rem;
@@ -205,7 +207,7 @@
                             .fa-solid {
                                 font-size: 0.8rem;
                                 color: $violeta;
-                                margin: 1rem 0 1.5rem 5.4rem;
+                                margin: 1rem 0 1.5rem 7rem;
                             }
                             .projects_container_content_card_box_text {
                                 font-size: 1.5rem;
@@ -376,10 +378,10 @@
             display: none;
             position: absolute;
             height: 500px;
-            margin-top: 20rem;
             img {
-                width: 100%;
+                width: 85%;
                 height: auto;
+                padding-left: 6rem;
             }
             .fa-solid {
                 font-size: 1rem;
@@ -389,9 +391,9 @@
                 padding-left: 0.7rem;
                 cursor: pointer;
                 display: block;
-                width: 13%;
+                width: 6%;
                 position: relative;
-                left: 90%;
+                left: 95%;
                 top: -10%;
                 margin-bottom: 1rem;
                 border-radius: 15%;
@@ -430,7 +432,7 @@
                 &:after {
                     content: "How to reach me";
                     position: absolute;
-                    width: 30%;
+                    width: 20%;
                     height: 2.5rem;
                     color: $verde;
                     font-size: 1rem;
@@ -550,6 +552,7 @@
                             }
                             button {
                                 margin-top: 3.2rem;
+                                margin-bottom: 1.5rem;
                                 display: inline-block;
                                 background: $violeta;
                                 color: $blanco;

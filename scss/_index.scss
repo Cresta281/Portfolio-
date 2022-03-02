@@ -30,6 +30,7 @@
                 a {
                     color: $violeta;
                     font-family: 'Ubuntu', sans-serif;
+                    margin-left: 5rem;
                     &:hover {
                         color: $verde;
                     }
@@ -45,6 +46,7 @@
         position: fixed;
         font-family: 'Ubuntu', sans-serif;
         transition: all 0.5s ease;
+        background: $violeta !important;
         .container-fluid {
             background: $violeta;
             display: flex;
@@ -175,6 +177,9 @@
             }
         }
     }
+    .hide_text_button {
+        display: none;
+    }
 }
 /*projects section */
 .projects {
@@ -245,7 +250,7 @@
                         .fa-solid {
                             font-size: 1rem;
                             color: $violeta;
-                            margin: 1rem 0 1.5rem 8.6rem;
+                            margin: 1rem 0 1.5rem 9rem;
                         }
                         .projects_container_content_card_box_text {
                             font-size: 2rem;
@@ -629,8 +634,7 @@ footer {
 
 .scroll_up {
     position: fixed;
-    height: 6%;
-    width: 3%;
+    height: 5%;
     background: $violeta;
     right: 2%;
     bottom: 5%;
