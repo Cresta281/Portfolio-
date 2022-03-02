@@ -101,12 +101,12 @@ $('#field4').change(function(){
 /*mobile about button */
 if (window.matchMedia('(max-width: 767px)').matches){
 $('#hide_button').click(function(){
-    $('#hide').show().css('width','200%')
+    $('#hide').show().css('width','100%')
     $('#hide1').show().css('width','200%')
     $('#hide2').show().css('width','200%')
     $('#hide_button').fadeOut(400)
     $('#close_about').show()
-    $('.about').css('height','1050px')
+    $('.about').css('height','1200px')
 })
 $('#close_about').click(function() {
     $('#hide').hide()
