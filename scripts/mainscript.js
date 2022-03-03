@@ -43,7 +43,7 @@ $('#certificates').click(function(){
 
     if (window.matchMedia('(max-width: 767px)').matches) {
         $('html,body').animate({ scrollTop: a + 240},500)
-        $('.skills_container_content_column2').css('margin-top','33rem')
+        $('.skills_container_content_column2').css('margin-top','35rem')
         $('#skills_certificates').css('margin-top','30rem')
     }if (window.matchMedia('(min-width: 768px)').matches) {
         $('.skills_container_content_column2').css('margin-top','35rem')
